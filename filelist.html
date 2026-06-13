@@ -55,9 +55,8 @@
                 var htmlString = "";
             
               // this creates JS object 'data' with a list of files  
-                  // change "aptokash/SD330" to your github id and repository name 
                 (async () => {
-                    const response = await fetch("https://api.github.com/repos/epserrano312/SD330/contents/");
+                    const response = await fetch("https://api.github.com/repos/epserrano312/Marist-Parking-Website/contents/");
                     const data = await response.json();
                 
               // loop through the list of files, set "file" to each file name
